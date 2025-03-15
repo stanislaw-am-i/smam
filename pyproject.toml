@@ -1,0 +1,25 @@
+[project]
+name = "smam"
+version = "0.0.1"
+description = "A simple script that manages multiple Signal Desktop accounts on Linux."
+readme = "README.md"
+authors = [
+  { name="Stan" }
+]
+license = {file = "LICENSE"}
+keywords = ["signal", "desktop", "cli"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",  
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: Communications :: Chat"
+]
+requires-python = ">=3.7"
+
+[build-system]
+requires = [
+  "setuptools>=61.0",
+  "wheel"
+]
+build-backend = "setuptools.build_meta"
