@@ -224,7 +224,7 @@ def delete_account() -> None:
     else:
         print("Deletion cancelled.")
 
-def main_menu() -> None:
+def main() -> None:
     """
     Main interactive menu that drives the script:
     1) Ensure config and check Signal installation
@@ -261,6 +261,6 @@ def main_menu() -> None:
             break
         else:
             print("Invalid choice. Please try again.")
-
+            
 if __name__ == "__main__":
-    main_menu()
+    main()
