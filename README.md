@@ -7,12 +7,31 @@ If you're looking for something similar for Windows or macOS, try this: https://
 
 ## Installation
 
-**With pip**
-Fetch the package:
+**On Ubuntu / Mint**
+
+Fetch the deb package:
 ```
+wget https://github.com/stanislaw-am-i/smam/releases/download/0.0.1/python3-smam_0.0.1-1_all.deb
+```
+Install via apt manager on Ubuntu:
+
+```
+sudo apt install ./python3-smam_0.0.1-1_all.deb
+```
+Run:
+
+```
+smam
+```
+
+**With pip**
+
+Fetch the package:
+```s
 pip install -i https://test.pypi.org/simple/ smam==0.0.1
 ```
 Run:
+
 ```
 python3 -m smam_package.smam
 ```
